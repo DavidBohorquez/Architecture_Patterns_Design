@@ -1,0 +1,17 @@
+package edu.logica;
+
+import edu.cableado.IModerador;
+
+public class TuPerfil implements IModerador {
+
+	@Override
+	public void moderar() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public static void main(String[] args) {
+		new TuPerfil().moderar();
+	}
+
+}

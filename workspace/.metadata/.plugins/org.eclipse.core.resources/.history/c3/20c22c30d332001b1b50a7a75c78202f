@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =======================Contexto -David Bohorquez-================================ -->
+<project name="1.2 contexto" default="Crear contexto.jar">
+    <description> Genera el jar del contexto </description>
+	<!-- variables -->
+	<property name="base_contexto" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\contexto"/>
+	<property name="destino_contexto" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\tuperfil\back\contexto.jar"/>
+	<!--   corear   -->
+    <target name="Crear contexto.jar" description="crea el contexto.jar">
+    	 <jar destfile="${destino_contexto}"  basedir="${base_contexto}\bin" manifest="${base_core}\MANIFEST.MF"/>
+    </target>
+</project>
+

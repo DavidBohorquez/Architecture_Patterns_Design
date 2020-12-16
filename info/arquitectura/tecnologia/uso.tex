@@ -1,0 +1,23 @@
+\section{Punto de Vista de Uso de Tecnología}
+
+El punto de vista de la utilización de la tecnología muestra cómo las aplicaciones son apoyadas por la tecnología de software y hardware: los servicios tecnológicos son suministrados por los dispositivos; el software y las redes del sistema son suministrados a las aplicaciones. Este punto de vista desempeña un papel importante en el análisis del rendimiento y la escalabilidad, ya que relaciona la infraestructura física con el mundo lógico de las aplicaciones. Es muy útil para determinar los requisitos de rendimiento y calidad de la infraestructura en función de las exigencias de las diversas aplicaciones que la utilizan.
+
+\subsection{Modelo de Uso de la Tecnología}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.8\linewidth]{imgs/modelo/UsoTecnologia.pdf}
+	\caption{Modelo Implementacion y Despliegue}
+\end{figure}
+
+Una función tecnológica describe el comportamiento interno de un nodo; para el usuario de un nodo que realiza una función tecnológica, esta función es invisible. Si su comportamiento es expuesto externamente, esto se hace a través de uno o más servicios tecnológicos. Una función tecnológica se abstrae de la forma en que se implementa. Sólo se especifica el comportamiento necesario. Una función de tecnología puede realizar servicios de tecnología. Los servicios tecnológicos de otras funciones tecnológicas pueden servir a las funciones tecnológicas. Una función tecnológica puede acceder a los objetos tecnológicos. Se puede asignar un nodo a una función tecnológica (lo que significa que el nodo realiza la función tecnológica). El nombre de una función tecnológica debe ser preferentemente un verbo sustantivado.
+
+%\newpage
+
+\subsection{Caso  de  Uso de la Tecnología}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=.7\linewidth]{imgs/puntos_vista/tecnologia/uso.pdf}
+	\caption{Caso de Uso de la Tecnología}
+\end{figure}
+
+Para nuestro caso, en el servidor de aplicaciones vamos a desplegar los componentes descritos en la capa de aplicación, a saber, el componente orquestador Tu-Perfil, los componentes pertenecientes al core de la aplicación, como lo son el componente Profesión, Juego, y Estudiante, además del componente del front, GUI. Por otra parte, se especifican dos componentes externos, el primero de ellos denominado Games, el cual, nos permite integrar juegos online que proporcionan datos sobre las partidas de los juegos y sus correspondientes puntajes en cada una de las modalidades o categorías para ser enviadas y analizadas para el perfilamiento del estudiante. Luego, se especifica el componente Empleabilidad, que nos brinda una estadística sobre las profesiones con mayor demanda en periodos de tiempo ajustables mediante el uso de diferentes datasets. 

@@ -1,0 +1,58 @@
+\chapter{Lenguaje: ArchiMate}
+\section{Introducción}
+Para el desarrollo de proyectos de ingeniería de software se requiere una serie de componentes, pasos y estructura bien definida que debe seguirse para llevar a buen término la finalización del mismo. Una de estas partes fundamentales en la ingeniería de software es el lenguaje de modelado, el cual es un lenguaje artificial que puede ser utilizado para expresar la información o el conocimiento o sistemas en una estructura que se define por un conjunto coherente de normas. Las reglas se utilizan para interpretar el significado de los componentes de la estructura. Estos lenguajes de modelado pueden ser de dos tipos en específico, el primero es el gráfico, el cual utiliza una técnica de diagrama con símbolos con nombre que representan conceptos y líneas que conectan los símbolos y representan relaciones y varias otras notaciones gráficas para representar restricciones. y el lenguaje textual que puede usar palabras clave estandarizadas acompañadas de parámetros o términos y frases en lenguaje natural para hacer expresiones interpretables por computadora. Entre estos lenguajes de modelado se encuentra uno muy útil el cual es ArchiMate, el cual consiste en un amplio, abierto e independiente lenguaje de modelado con el fin de apoyar la descripción, análisis y visualización de la arquitectura deentro del proyecto de fóma veráz y efectiva. ArchiMate es un estándar técnico de The Open Group y se basa en los conceptos del estándar IEEE 1471 . Cuenta con el respaldo de varios proveedores de herramientas y empresas consultoras. ArchiMate también es una marca registrada de The Open Group. Open Group tiene un programa de certificación para usuarios de ArchiMate, herramientas de software y cursos. ArchiMate se distingue de otros lenguajes como el Lenguaje de modelado unificado (UML) y el Modelado y notación de procesos de negocio (BPMN) por su alcance de modelado empresarial.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{imgs/coreFramwork}
+	\caption{Marco completo de ArchiMate}
+\end{figure}
+
+\section{Conceptos y su notación}
+El lenguaje ArchiMate separa los conceptos del lenguaje (es decir, los constituyentes del metamodelo) de su notación. Diferentes grupos de interesados pueden requerir diferentes notaciones para comprender un modelo o una visión de la arquitectura.  A este respecto, los ArchiMatelanguages de lenguajes como el UML o el BPMN, que sólo tienen una notación normalizada. El mecanismo de punto de vista explicado en el Capítulo 14 proporciona los medios para definir tales visualizaciones orientadas a las partes interesadas. Aunque la notación de los conceptos de ArchiMate puede (y debería) ser específica de las partes interesadas, la norma proporciona una notación gráfica común, que puede ser utilizada por los arquitectos y otros que desarrollan modelos ArchiMate. Esta notación está dirigida a un público acostumbrado a las técnicas de modelización técnica existentes, como ERD, UML o BPMN, y por lo tanto se asemeja a ellas. En el resto de este documento, a menos que se indique lo contrario, los símbolos utilizados para representar los conceptos del lenguaje representan la notación estándar de ArchiMate.  Esta notación estándar para la mayoría de los elementos consiste en un cuadro con un icono en la esquina superior derecha. En varios casos, este icono por sí mismo puede también utilizarse como notación alternativa. Esta iconografía estándar debe preferirse siempre que sea posible para que cualquier persona que conozca el lenguaje ArchiMate pueda leer los diagramas producidos en el lenguaje.
+
+\input{arquitectura/lenguaje/conceptos/meta}
+
+\input{arquitectura/lenguaje/conceptos/motivacion}
+
+\input{arquitectura/lenguaje/conceptos/estrategia}
+
+\input{arquitectura/lenguaje/conceptos/negocio}
+
+\input{arquitectura/lenguaje/conceptos/aplicacion}
+
+\input{arquitectura/lenguaje/conceptos/tecnologia}
+
+\input{arquitectura/lenguaje/conceptos/fisico}
+
+\section{Relaciones}
+
+el lenguaje ArchiMate define un conjunto básico de relaciones genéricas, cada una de las cuales puede conectar un conjunto predefinido de conceptos de origen y destino (en la mayoría de los casos elementos, pero en unos pocos casos también otras relaciones).  Muchas de estas relaciones están "sobrecargadas"; es decir, su significado exacto difiere según los conceptos de origen y destino que conectan, y se clasifican de la siguiente manera:
+\begin{itemize}
+	\item Relaciones estructurales, que modelan la construcción o composición estática de conceptos del mismo o diferentes tipos.
+	\item Relaciones de dependencia, que modelan cómo se utilizan los elementos para apoyar otros elementos.
+	\item Las relaciones dinámicas, que se utilizan para modelar las dependencias de comportamiento entre los elementos.
+	\item Otras relaciones, que no entran en ninguna de las categorías anteriores.
+\end{itemize}
+
+\input{arquitectura/lenguaje/relaciones/estructurales}
+
+\input{arquitectura/lenguaje/relaciones/dependencia}
+
+\input{arquitectura/lenguaje/relaciones/dinamicas}
+
+\input{arquitectura/lenguaje/relaciones/otras}
+
+\section{Puntos de Vista}
+
+\input{arquitectura/lenguaje/puntosvista/motivacion}
+
+\input{arquitectura/lenguaje/puntosvista/estrategia}
+
+\input{arquitectura/lenguaje/puntosvista/negocio}
+
+\input{arquitectura/lenguaje/puntosvista/aplicacion}
+
+\input{arquitectura/lenguaje/puntosvista/tecnologia}
+
+%\input{arquitectura/lenguaje/puntosvista/proyecto}

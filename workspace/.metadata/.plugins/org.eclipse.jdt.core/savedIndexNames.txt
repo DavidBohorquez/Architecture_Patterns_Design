@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\.metadata\.plugins\org.eclipse.jdt.core
+4074466843.index
+898056575.index
+3247876564.index

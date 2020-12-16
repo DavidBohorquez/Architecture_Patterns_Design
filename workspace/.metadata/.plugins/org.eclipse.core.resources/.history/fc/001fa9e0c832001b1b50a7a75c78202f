@@ -1,0 +1,8 @@
+package edu.presentacion;
+
+import edu.cableado.IEntrada;
+import edu.cableado.ISalida;
+
+public class GUI implements IEntrada, ISalida {
+
+}

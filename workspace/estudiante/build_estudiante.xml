@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =======================Estudiante -David Bohorquez-================================ -->
+<project name="1.2 estudiante" default="Crear estudiante.jar">
+    <description> Genera el jar del estudiante </description>
+	<!-- variables -->
+	<property name="base_estudiante" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\estudiante"/>
+	<property name="destino_estudiante" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\tuperfil\back\estudiante.jar"/>
+	<!--   corear   -->
+    <target name="Crear estudiante.jar" description="crea el estudiante.jar">
+    	 <jar destfile="${destino_estudiante}"  basedir="${base_estudiante}\bin" manifest="${base_estudiante}\MANIFEST.MF"/>
+    </target>
+</project>
+

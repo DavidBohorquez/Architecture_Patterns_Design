@@ -1,0 +1,19 @@
+package edu.logica;
+
+import edu.cableado.IAplicable;
+
+public class Contexto implements IAplicable {
+
+	@Override
+	public void analizarEscenarios() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void plantearEscenarios() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package edu.logica;
+
+import edu.cableado.IAplicable;
+
+public class Contexto implements IAplicable {
+
+	@Override
+	public void analizar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

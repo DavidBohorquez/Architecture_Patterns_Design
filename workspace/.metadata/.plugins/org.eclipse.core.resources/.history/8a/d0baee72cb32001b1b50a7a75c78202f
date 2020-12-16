@@ -1,0 +1,20 @@
+package edu.presentacion;
+
+import edu.cableado.IEntrada;
+import edu.cableado.ISalida;
+
+public class gui implements IEntrada, ISalida {
+
+	@Override
+	public void desplegarInformaicion() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void recibirInformacion() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

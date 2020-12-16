@@ -1,0 +1,9 @@
+package edu.cableado;
+
+public interface IJugable {
+
+	void jugar(IJugable ij);
+
+	void escogerJuego(IAplicable ia);
+
+}

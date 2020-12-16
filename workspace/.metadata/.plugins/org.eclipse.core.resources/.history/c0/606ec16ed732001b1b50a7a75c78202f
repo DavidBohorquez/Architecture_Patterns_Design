@@ -1,0 +1,12 @@
+package edu.cableado;
+
+import java.awt.List;
+
+public interface IJugable {
+
+	void jugar();
+
+	List obtenerPuntajes();
+
+	// void escogerJuego(IAplicable ia);
+}

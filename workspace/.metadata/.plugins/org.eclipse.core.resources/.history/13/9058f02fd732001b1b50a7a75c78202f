@@ -1,0 +1,12 @@
+package edu.cableado;
+
+import com.sun.tools.javac.util.List;
+
+public interface IJugable {
+
+	void jugar();
+
+	void escogerJuego(IAplicable ia);
+	
+	List<Float> obtenerPuntajes();
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =======================Profesion -David Bohorquez-================================ -->
+<project name="1.2 profesion" default="Crear profesion.jar">
+    <description> Genera el jar del profesion </description>
+	<!-- variables -->
+	<property name="base_profesion" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\profesion"/>
+	<property name="destino_profesion" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\tuperfil\back\profesion.jar"/>
+	<!--   corear   -->
+    <target name="Crear profesion.jar" description="crea el profesion.jar">
+    	 <jar destfile="${destino_profesion}"  basedir="${base_profesion}\bin" manifest="${base_profesion}\MANIFEST.MF"/>
+    </target>
+</project>
+

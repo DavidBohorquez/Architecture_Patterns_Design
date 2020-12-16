@@ -1,0 +1,27 @@
+\chapter{Aplicación}
+\section{Introducción}
+La Capa de Aplicación muestra los servicios de aplicación que apoyan el negocio, y las aplicaciones que los realizan.
+El principal elemento de estructura activa de la Capa de Aplicación es el componente de aplicación. Este elemento se utiliza para modelar cualquier entidad estructural en la Capa de Aplicación: no sólo los componentes de software (reutilizables) que pueden formar parte de una o más aplicaciones, sino también las aplicaciones de software completas, las subaplicaciones o los sistemas de información. Aunque es muy similar al UML componente, el elemento componente de la aplicación ArchiMate modela estrictamente el aspecto estructural de una aplicación; su comportamiento está modelado por una relación explícita con el elemento de comportamiento.
+También en la arquitectura de aplicación, las interrelaciones de los componentes son un ingrediente esencial. Por lo tanto, también introducimos aquí el elemento de colaboración de la aplicación, definido como un colectivo de componentes de aplicación que realizan interacciones de aplicación. El elemento es muy similar a la colaboración como se define en el estándar UML.
+En el sentido puramente estructural, una interfaz de aplicación es el canal (lógico) a través del cual se puede acceder a los servicios de un componente. En un sentido más amplio (tal como se utiliza, entre otros, en la definición de UML), una interfaz de aplicación define algunas características de comportamiento elementales: define el conjunto de operaciones y eventos que proporciona el componente, o los que se requieren del entorno. Así, se utiliza para describir la funcionalidad de un componente. El elemento de interfaz de aplicación puede utilizarse para modelar tanto las interfaces de aplicación a aplicación, que ofrecen servicios de aplicación internos, como las interfaces de aplicación a empresa (y/o interfaces de usuario), que ofrecen servicios de aplicación externos.
+
+\section{Metamodelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\linewidth]{imgs/meta/Aplicacion}
+	\caption{Metamodelo Aplicación}
+\end{figure}
+
+La figura 7.1 brinda una visión general de los elementos de la capa de aplicación y sus relaciones. Siempre que sea aplicable, la guía se ha extraído de la analogía con la Capa de Aplicación. La Capa de Aplicación se utiliza típicamente para modelar las arquitecturas de los sistemas de información de la empresa, incluida la arquitectura de aplicación que, como se define en el marco del TOGAF, describe la estructura e interacción de las aplicaciones. Un componente de aplicación representa una encapsulación de la funcionalidad de la aplicación alineada con la estructura de implementación, que es modular y reemplazable. Encapsula su comportamiento y datos, expone los servicios y los hace disponibles a través de interfaces.
+
+\newpage
+\include{arquitectura/aplicacion/comportamiento}
+
+\newpage
+\include{arquitectura/aplicacion/cooperacion}
+
+\newpage
+\include{arquitectura/aplicacion/estructura}
+
+\newpage
+\include{arquitectura/aplicacion/uso}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =======================TuPerfil -David Bohorquez-========================== -->
+<project name="1.4 tuperfil" default="Crear tuperfil.jar">
+    <description> Genera el jar del tuperfil</description>
+	<!-- variables -->
+	<property name="dir_api" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\api\bin"/>
+	<property name="base_orquestador" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\tuperfil\bin"/>
+	<!-- orquestar -->
+    <target name="Crear tuperfil.jar" description="crea el tuperfil.jar">
+    	<jar destfile="tuperfil.jar"  basedir="${base_tuperfil}">
+        <fileset dir="${dir_api}"/>
+            <manifest>
+                <attribute name="Main-Class" value="edu.logica.TuPerfil"/>
+            </manifest>
+        </jar>
+    </target>
+</project>
+

@@ -1,0 +1,23 @@
+package edu.logica;
+
+import edu.cableado.IAplicable;
+import edu.cableado.IModerador;
+import edu.cargador.Cargador;
+
+public class TuPerfil implements IModerador {
+
+	@Override
+	public void moderar() {
+		Cargador cf = new Cargador("front/");
+		
+		IAplicable contexto = new Profesion();
+		contexto.analizarEscenarios();
+		contexto.plantearEscenarios();
+
+	}
+
+	public static void main(String[] args) {
+		new TuPerfil().moderar();
+	}
+
+}

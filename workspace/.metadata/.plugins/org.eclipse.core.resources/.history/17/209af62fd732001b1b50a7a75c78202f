@@ -1,0 +1,5 @@
+package edu.cableado;
+
+public interface IPerfilable {
+	public void perfilar(IPerfilable p);
+}

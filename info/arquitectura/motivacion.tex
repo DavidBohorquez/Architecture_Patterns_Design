@@ -1,0 +1,39 @@
+\chapter{Motivacional}
+\label{chap:Motivacional}
+\section{Introducción}
+Se han definido una serie de puntos de vista estándar para modelar los aspectos motivadores. Cada uno de estos puntos de vista presenta una perspectiva diferente para modelar la motivación que subyace en algunas arquitecturas empresariales y permite al modelador centrarse en ciertos aspectos. Por lo tanto, cada punto de vista considera sólo una selección de los elementos y relaciones que se han descrito en el capítulo 3.
+
+Se distinguen los siguientes puntos de vista:
+
+\begin{itemize}
+	\item El punto de vista de los interesados se centra en la elaboración de modelos de los interesados, los factores determinantes, las evaluaciones de esos factores y los objetivos iniciales para abordar esos factores y evaluaciones.
+	\item El punto de vista de la realización de los objetivos se centra en el perfeccionamiento de los objetivos iniciales de alto nivel para convertirlos en (sub)objetivos más concretos mediante la relación de agregación y, por último, en requisitos y limitaciones mediante la relación de realización.
+	\item El punto de vista de la contribución al logro de objetivos se centra en la modelización y el análisis de las relaciones de influencia entre los objetivos (y los requisitos).
+	\item El punto de vista de los principios se centra en la modelización de los principios pertinentes y las metas que motivan esos principios.
+	\item El punto de vista de la realización de los requisitos se centra en la modelización de la realización de los requisitos y las limitaciones por medio de elementos básicos, como los agentes, los servicios, los procesos, los componentes de la aplicación, etc.
+	\item El punto de vista de la motivación abarca todo el aspecto de la motivación y permite utilizar todos los elementos de motivación.
+\end{itemize}
+
+A continuación se describen por separado todos los puntos de vista. Para cada punto de vista, se indican sus elementos y relaciones, las directrices para su utilización, su objetivo y grupo destinatario. Además, la descripción de cada punto de vista contiene modelos de casos.
+\newpage
+
+\section{Metamodelo}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.0\linewidth]{imgs/meta/Motivacion}
+	\caption{Metamodelo Motivacional}
+\end{figure}
+
+La principal jerarquía de los elementos de comportamiento y estructura del lenguaje ArchiMate se presenta en el metamodelo de la Figura 4.1. Define estos elementos de manera genérica e independiente de la capa. Observe que la mayoría de estos elementos (las cajas blancas) son elementos abstractos del meta modelo; es decir, no están instanciados en los modelos sino que sólo sirven para estructurar el meta modelo.  La notación presentada en este capítulo es, por lo tanto, la forma genérica en que se representan las especializaciones de estos elementos (es decir, los elementos de las diferentes capas de la arquitectura).  Los elementos concretos (las cajas grises), que pueden ser utilizados para modelar la Arquitectura de la Empresa a un nivel estratégico.\\ \\
+
+Este fragmento genérico de metamodelo consiste en dos tipos principales de elementos: elementos de estructura ('sustantivos') y elementos de comportamiento ('verbos').
+
+\newpage
+\include{arquitectura/motivacion/implicados}
+\include{arquitectura/motivacion/realizacionObj}
+\include{arquitectura/motivacion/contribucionObj}
+\include{arquitectura/motivacion/principios}
+\include{arquitectura/motivacion/realizacionReq}
+\include{arquitectura/motivacion/motivacion}
+
+

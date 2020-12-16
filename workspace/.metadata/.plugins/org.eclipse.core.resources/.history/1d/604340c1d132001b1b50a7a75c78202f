@@ -1,0 +1,7 @@
+package edu.logica;
+
+import edu.cableado.IAplicable;
+
+public class Contexto implements IAplicable {
+
+}

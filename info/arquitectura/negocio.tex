@@ -1,0 +1,46 @@
+\chapter{Negocio}
+\section{Introducción}
+Las descripciones arquitectónicas se centran en la estructura, lo que significa que las interrelaciones de las entidades dentro de una organización desempeñan un papel importante. Para hacerlo explícito, se ha introducido el elemento de la colaboración empresarial.\\
+
+Se introduce el elemento de la interfaz empresarial para modelar explícitamente los lugares o canales (lógicos o físicos) en los que se puede acceder a los servicios que una función ofrece al entorno. El mismo servicio puede ofrecerse en varias interfaces diferentes; por ejemplo, por correo, por teléfono o a través de Internet. A diferencia de la modelización de aplicaciones, en los enfoques actuales de modelización de la capa empresarial no es frecuente reconocer el elemento de interfaz empresarial.
+En la Capa de Negocio se definen tres tipos de elementos de estructura activa interna: actor comercial, papel comercial y colaboración comercial.\\
+
+El aspecto de la estructura pasiva de la Capa de Negocios contiene los elementos de estructura pasiva (objetos de negocios) que son manipulados por el comportamiento, como los procesos o funciones de negocios. Las entidades pasivas representan los conceptos importantes en los que la empresa piensa en un dominio.
+En la Capa de Negocios, hay dos tipos principales de elementos de estructura pasiva: objeto de negocio y representación. Además, un contrato, utilizado en el contexto de un producto, es una especialización de un objeto de negocio.
+
+\newpage
+\section{Metamodelo}
+
+\begin{figure}[h!]
+	\centering
+	\begin{minipage}{1\textwidth} % choose width suitably
+	\includegraphics[width=0.9\linewidth]{imgs/meta/Negocio}
+	\caption{Metamodelo Negocio}
+	\label{fig:business}
+	{\footnotesize Nota: Esta figura no muestra todas las relaciones permitidas; cada elemento del lenguaje puede tener relaciones de composición, agregación y especialización con elementos del mismo tipo; además, hay relaciones indirectas que pueden derivarse.\par}
+	\end{minipage}
+\end{figure}
+
+La figura \ref{fig:business} ofrece una visión general de los elementos de la capa de negocios y sus relaciones. El elemento de estructura activa interna de la empresa, el elemento de comportamiento interno de la empresa y el elemento de estructura pasiva de la empresa son elementos abstractos; sólo sus especializaciones (como se definen en las siguientes secciones) se instancian en los modelos.
+
+La Capa de Negocios se utiliza típicamente (a menudo en conjunto con los elementos de estrategia descritos en el Capítulo 5) para modelar la arquitectura de negocios de una empresa, definida por el marco del TOGAF como una descripción de la estructura e interacción entre la estrategia de negocios, la organización, las funciones, los procesos de negocios y las necesidades de información.
+
+\newpage
+\include{arquitectura/negocio/organizacion}
+
+\clearpage
+\include{arquitectura/negocio/cooperacion}
+
+\clearpage
+\include{arquitectura/negocio/funcion}
+
+\clearpage
+\include{arquitectura/negocio/proceso}
+
+
+\clearpage
+\include{arquitectura/negocio/proceso_negocio}
+
+
+\clearpage
+\include{arquitectura/negocio/producto}

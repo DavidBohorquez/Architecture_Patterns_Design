@@ -1,0 +1,91 @@
+\documentclass[11pt]{book}
+%-------------------PAQUETES-------------------------------
+\input{setup/paquetes}
+\input{setup/macros}
+%-------------------MACROS---------------------------------
+%-------------------PORTADA--------------------------------
+\author{
+	Nestor David Bohorquez Galeano \\ 
+	20172020083 \\
+	Nicolas Herrera Rubiano \\
+	20171020118 \\
+	Alvaro Andres Niño Rincon \\
+	20171020139	
+}
+\title{Arquitectura Empresarial}
+
+\begin{document}
+%\maketitle
+
+\begin{titlepage} % Suppresses headers and footers on the title page
+	
+	\centering
+	\scshape % Use small caps for all text on the title page
+	\vspace*{\baselineskip} % White space at the top of the page
+	
+	\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal rule
+	\rule{\textwidth}{0.4pt} % Thin horizontal rule
+	
+	\vspace{0.75\baselineskip}
+	
+	{\LARGE ARQUITECTURA EMPRESARIAL} % Title
+	
+	\vspace{0.75\baselineskip}
+	
+	\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal rule
+	\rule{\textwidth}{1.6pt} % Thick horizontal rule
+	
+	\vspace{2\baselineskip}
+	
+	\vspace*{3\baselineskip}
+	
+	Elaborado Por
+	
+	\vspace{0.5\baselineskip} 
+	
+	{\scshape\Large Nestor David Bohorquez Galeano \\ 20172020083 \\ 
+	Nicolas Herrera Rubiano \\ 20171020118 \\ 
+	Alvaro Andres Niño Rincon \\ 20171020139}
+	
+	\vspace{0.5\baselineskip} 
+	
+	\textit{Universidad Distrital Francisco José de Caldas}
+	
+	\vfill 
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.3\linewidth]{imgs/ud.jpeg}
+	\end{figure}
+	
+	\today
+\end{titlepage}
+
+\tableofcontents
+\listoffigures
+
+\part{PROYECTO}
+\input{proyecto/organizacion}
+\input{proyecto/metodologia}
+\part{ARQUITECURA}
+\input{arquitectura/lenguaje}
+\input{arquitectura/motivacion}
+\input{arquitectura/estrategia}
+\input{arquitectura/negocio}
+\input{arquitectura/aplicacion}
+\input{arquitectura/tecnologia}
+\input{arquitectura/proyecto}
+
+\part{DISEÑO}
+%\input{diseno/uml}
+\input{patrones/creacionales}
+%\input{patrones/estructurales}
+%\input{patrones/comportamiento}
+
+\part{REFLEXIONES}
+\input{reflexiones/conclusiones}
+
+\bibliographystyle{plain}
+\bibliography{referencias/libros,referencias/articulos}
+
+\end{document}

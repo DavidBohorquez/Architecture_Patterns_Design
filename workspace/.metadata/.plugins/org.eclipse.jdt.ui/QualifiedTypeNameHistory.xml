@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="edu.cableado.IModerador"/>
+    <fullyQualifiedTypeName name="edu.cableado.IEntrada"/>
+    <fullyQualifiedTypeName name="edu.cableado.ISalida"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="edu.cableado.IJugable"/>
+    <fullyQualifiedTypeName name="edu.cableado.IPerfilable"/>
+    <fullyQualifiedTypeName name="edu.logica.Contexto"/>
+    <fullyQualifiedTypeName name="edu.logica.Profesion"/>
+    <fullyQualifiedTypeName name="edu.cargador.Cargador"/>
+    <fullyQualifiedTypeName name="edu.cableado.IAplicable"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+</qualifiedTypeNameHistroy>

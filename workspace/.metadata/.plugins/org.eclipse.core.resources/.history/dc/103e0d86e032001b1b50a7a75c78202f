@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Entregable -David Bohorquez-                                                               
+     ====================================================================== -->
+<project name="1.  Despliegue !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" default="Crear Entregable">
+    <description> Genera el jar del Despliegue </description>
+	<!-- variables -->
+	<property name="origen_despliegue" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace"/>
+	<!-- desplegar -->
+    <target name="Crear Entregable" description="crea el Entregable"> 
+    	<ant antfile="${origen_despliegue}\tuperfil\build_tuperfil.xml" />
+    	<ant antfile="${origen_despliegue}\api\build_api.xml" />
+    	<ant antfile="${origen_despliegue}\api\build_profesion.xml" />
+    	<!--<ant antfile="${origen_despliegue}\core\build_core.xml" />
+    	<ant antfile="${origen_despliegue}\gui\build_gui.xml" />
+    	<ant antfile="${origen_despliegue}\nivel1\build_gui.xml" />
+    	<ant antfile="${origen_despliegue}\Escuchador\build_escuchador.xml" />
+    	<ant antfile="${origen_despliegue}\Correr\build_correr.xml" />
+    	<ant antfile="${origen_despliegue}\Derecha\build_derecha.xml" />
+    	<ant antfile="${origen_despliegue}\PapaNoel\build_papanoel.xml" />-->
+     </target>
+</project>

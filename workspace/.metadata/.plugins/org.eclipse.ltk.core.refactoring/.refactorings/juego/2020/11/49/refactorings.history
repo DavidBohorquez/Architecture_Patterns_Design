@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;juego/build_contexto.xml&apos; to &apos;build_juego.xml&apos;" description="Rename resource &apos;build_contexto.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="build_contexto.xml" name="build_juego.xml" stamp="1606718908162" updateReferences="true"/>
+</session>

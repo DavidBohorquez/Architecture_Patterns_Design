@@ -1,0 +1,54 @@
+package edu.logica;
+
+import edu.cableado.IAplicable;
+import edu.cableado.IEntrada;
+import edu.cableado.IModerador;
+import edu.cableado.ISalida;
+import edu.cargador.Cargador;
+
+public class TuPerfil implements IModerador {
+
+	@Override
+	public void moderar() {
+		Cargador cf = new Cargador("front/");
+		@SuppressWarnings("rawtypes")
+		Class cls = cf.getClase(IEntrada.class.getName());
+
+		IEntrada entrada = null;
+
+		if (cls != null) {
+			try {
+				entrada = (IEntrada) cls.newInstance();
+				entrada.recibirInformacion();
+				((ISalida) entrada).desplegarInformacion();
+			} catch (InstantiationException | IllegalAccessException e) {
+				e.printStackTrace();
+			}
+		}
+
+		Cargador cb = new Cargador("back/");
+		cls = cb.getClase(IAplicable.class.getName());
+
+		IAplicable contexto = null;
+
+		if (cls != null) {
+			try {
+				contexto = (IAplicable) cls.newInstance();
+				contexto.analizarEscenarios();
+				contexto.plantearEscenarios();
+			} catch (InstantiationException | IllegalAccessException e) {
+				e.printStackTrace();
+			}
+		}
+
+		/*
+		 * IAplicable contexto = new Profesion();
+		 */
+
+	}
+
+	public static void main(String[] args) {
+		new TuPerfil().moderar();
+	}
+
+}

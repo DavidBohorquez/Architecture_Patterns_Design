@@ -1,0 +1,13 @@
+package edu.logica;
+
+import edu.cableado.IPerfilable;
+
+public class Estudiante implements IPerfilable {
+
+	@Override
+	public void perfilar(IPerfilable arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

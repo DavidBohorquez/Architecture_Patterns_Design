@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =======================Juego -David Bohorquez-================================ -->
+<project name="1.2 juego" default="Crear juego.jar">
+    <description> Genera el jar del juego </description>
+	<!-- variables -->
+	<property name="base_juego" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\juego"/>
+	<property name="destino_juego" location="D:\7 semester\Diseño Arquitectural de Software y Patrones\workspace\tuperfil\back\juego.jar"/>
+	<!--   corear   -->
+    <target name="Crear juego.jar" description="crea el juego.jar">
+    	 <jar destfile="${destino_juego}"  basedir="${base_juego}\bin" manifest="${base_juego}\MANIFEST.MF"/>
+    </target>
+</project>
+

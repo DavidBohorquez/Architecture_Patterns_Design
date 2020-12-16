@@ -1,0 +1,35 @@
+package edu.logica;
+
+import edu.cableado.IAplicable;
+import edu.cableado.IModerador;
+import edu.cargador.Cargador;
+
+public class TuPerfil implements IModerador {
+
+	@Override
+	public void moderar() {
+		Cargador cf = new Cargador("back/");
+		Class cls = cf.getClase(IAplicable.class.getName());
+		
+		IAplicable contexto = null;
+				
+		if(cls!= null) {
+			try {
+				contexto = (IAplicable) cls.newInstance();
+				contexto.analizarEscenarios();
+				contexto.plantearEscenarios();
+			} catch (InstantiationException | IllegalAccessException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		/*IAplicable contexto = new Profesion();
+		*/
+
+	}
+
+	public static void main(String[] args) {
+		new TuPerfil().moderar();
+	}
+
+}
