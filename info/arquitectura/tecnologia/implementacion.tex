@@ -1,4 +1,4 @@
-\section{Punto de Vista de Implementacion y Despliegue}
+\section{Punto de Vista de Implementación y Despliegue}
 
 El punto de vista de la implementación y el despliegue muestra cómo se realizan una o más aplicaciones en la infraestructura. Esto comprende la asignación de las aplicaciones y componentes a los artefactos, y la asignación de la información utilizada por esas aplicaciones y componentes a la infraestructura de almacenamiento subyacente.\\
 
@@ -9,11 +9,11 @@ El nombre de un artefacto debe ser preferentemente el nombre del archivo que rep
 
 \clearpage
 
-\subsection{Modelo de Implementacion y Despliegue}
+\subsection{Modelo de Implementación y Despliegue}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.7\linewidth]{imgs/modelo/Implementacion}
-	\caption{Modelo Implementacion y Despliegue}
+	\caption{Modelo Implementación y Despliegue}
 \end{figure}
 
 Un objeto tecnológico modela los elementos de la estructura pasiva que son utilizados y procesados por la infraestructura. Un artefacto es una pieza física de información que se utiliza o se produce en un proceso de desarrollo de software, o por el despliegue y funcionamiento de un sistema. Es la representación, en forma de, por ejemplo, un archivo, de un objeto de datos o un componente de aplicación, y puede desplegarse en un nodo. El elemento del artefacto se ha tomado de UML. Un objeto tecnológico representa un elemento pasivo que es usado o producido por el comportamiento tecnológico. Los objetos tecnológicos representan los objetos "físicos" manipulados por la infraestructura de una empresa. Los objetos tecnológicos son elementos abstractos, es decir, no están instanciados en modelos sino que sirven como el tipo genérico de las cosas manipuladas por la Capa de Tecnología. Esto puede incluir tanto artefactos (por ejemplo, archivos) como material físico.
@@ -21,11 +21,11 @@ Se puede acceder a los objetos tecnológicos por medio del comportamiento tecnol
 
 \newpage
 
-\subsection{Caso  de Implementacion y Despliegue}
+\subsection{Caso  de Implementación y Despliegue}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=.7\linewidth]{imgs/puntos_vista/tecnologia/despliegue.pdf}
-	\caption{Caso Implementacion y Despliegue}
+	\caption{Caso Implementación y Despliegue}
 \end{figure}
 
 El proceso tecnológico referente al llenado de la base de datos, corresponde a una colaboración entre el componente de la aplicación Profesión y el componente externo Empleabilidad, dando como resultado la base datos de profesiones con mayor demanda en el ámbito local y fuente estadística para el posterior perfilamiento del componente Estudiante. Asimismo, se visualiza el sistema de software modelado mediante una arquitectura orientada a servicios, que facultará ese proceso tecnológico de llenado de la base de datos. En la capa de aplicación, desarrollamos una arquitectura de orquestación que permitió el modelamiento de componentes, ahora mediante la capa tecnológica y elementos tecnológicos distribuidos específicamente, además de controlar el flujo entre los componentes gracias a la arquitectura de orquestación, podemos agregar elementos externos a nuestro modelo de aplicación local.
