@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.5)  17 DEC 2020 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.12)  17 DEC 2020 13:25
 entering extended mode
 **./info.tex
 (info.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-04-06>
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\book.cls"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\book.cls"
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\bk11.clo"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\bk11.clo"
 File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -22,52 +22,65 @@ File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 ) (setup/paquetes.tex
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+x.sty"
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.
+sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
+s.sty"
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.st
+y"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gra
+phics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdf
+tex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
 Package: babel 2020/03/22 3.42 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.d
+ef"
 File: switch.def 2020/03/22 3.42 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cf
+g"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\sp
+anish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.de
+f"
 File: babel.def 2020/03/22 3.42 Babel common definitions
 \babel@savecnt=\count176
 \U@D=\dimen137
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel
+.def")
 \bbl@readstream=\read2
 \bbl@dirlevel=\count177
 )
@@ -78,13 +91,15 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.s
+ty"
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks17
 \verbatim@line=\toks18
 \verbatim@in@stream=\read3
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listing
+s.sty"
 \lst@mode=\count179
 \lst@gtempboxa=\box45
 \lst@token=\toks19
@@ -98,48 +113,59 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \lst@lineno=\count184
 \lst@maxwidth=\dimen141
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc
+.sty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count185
 \lst@skipnumbers=\count186
 \lst@framebox=\box46
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listing
+s.cfg"
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.s
+ty"
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\col
+or.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/minted\minted.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/minted\minted.st
+y"
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvopti
+ons.sty"
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmd
+s.sty"
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetkeys.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvse
+tkeys.sty"
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/fvextra\fvextra.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fvextra\fvextra.
+sty"
 Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbo
+x.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count187
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/fancyvrb\fancyvrb.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyvrb\fancyvr
+b.sty"
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
 \FV@CodeLineNo=\count188
 \FV@InFile=\read4
@@ -148,11 +174,13 @@ Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
 \FV@StepNumber=\count190
 \FV@OutFile=\write3
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/upquote\upquote.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/upquote\upquote.
+sty"
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/lineno\lineno.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lineno\lineno.st
+y"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count191
 \output=\toks20
@@ -193,7 +221,7 @@ LaTeX Info: Redefining \\ on input line 3056.
 \FV@LineIndentBox=\box52
 \FV@LineWidth=\dimen152
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count275
 \calc@Bcount=\count276
@@ -206,44 +234,55 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count277
 \calc@Cskip=\skip52
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\shellesc.s
+ty"
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/ifplatform\ifplatform.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifplatform\ifpla
+tform.sty"
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdfte
+xcmds.sty"
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/infwarerr\infwarerr.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infw
+arerr.sty"
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.st
+y"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/catchfile\catchfile.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/catchfile\catc
+hfile.sty"
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexc
+mds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifluatex
+.sty"
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xstring\xstring.
+sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xstring\xstrin
+g.tex"
 \integerpart=\count278
 \decimalpart=\count279
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/framed\framed.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/framed\framed.st
+y"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip53
 \fb@frw=\dimen155
@@ -251,7 +290,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen157
 \FrameSep=\dimen158
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count280
 \float@exts=\toks21
@@ -267,7 +306,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks23
 \c@listing=\count283
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\longtable.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.
+sty"
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip54
 \LTright=\skip55
@@ -285,12 +325,13 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@chunks=\count288
 \LT@p@ftn=\toks24
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
+y"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks25
 \inpenc@posthook=\toks26
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen160
 \ar@mcellbox=\box60
@@ -300,34 +341,42 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \backup@length=\skip59
 \ar@cellbox=\box61
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperre
+f.sty"
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\k
+vdefinekeys.sty"
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pdfescape\pdfescape.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdfe
+scape.sty"
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor.
+sty"
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/letltxmacro\letltxmacro.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\letl
+txmacro.sty"
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook.
+sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen162
 \Hy@linkcounter=\count289
 \Hy@pagecounter=\count290
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.
+def"
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/intcalc\intcalc.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intcal
+c.sty"
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count291
@@ -340,17 +389,19 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
 \c@Hy@tempcnt=\count292
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen163
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.
+sty"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/bigintcalc\bigintcalc.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\big
+intcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -367,7 +418,8 @@ Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbeg
+shi.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 \Hy@abspage=\count294
@@ -376,28 +428,32 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex
+.def"
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-(C:\Users\bluep\AppData\Roaming\MiKTeX\2.9\tex/latex/atveryend\atveryend.sty
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atvery
+end.sty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
 \Fld@listcount=\count297
 \c@bookmark@seq@number=\count298
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/rerunfilecheck\rerunfilecheck.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\r
+erunfilecheck.sty"
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/uniquecounter\uniquecounter.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\
+uniquecounter.sty"
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip60
-)
-(setup/macros.tex ("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstlang1.sty
-"
+) (setup/macros.tex
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang
+1.sty"
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ))
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > in
@@ -405,12 +461,13 @@ fo.aex <nul: /p x=^%~$PATH:i>> info.aex)...executed.
 
 runsystem(del info.aex)...executed.
 
- ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3back
+end-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count299
 \l__pdf_internal_box=\box62
-)
-(info.aux
+) (info.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 
@@ -489,7 +546,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
- ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
+-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count300
 \scratchdimen=\dimen166
@@ -502,7 +561,9 @@ LaTeX Font Info:    ... okay on input line 17.
 \MPnumerator=\count304
 \makeMPintoPDFobject=\count305
 \everyMPtoPDFconversion=\toks29
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+)
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\eps
+topdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -510,20 +571,24 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.st
+y"
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 \c@lstlisting=\count306
 \AtBeginShipoutBox=\box64
 Package hyperref Info: Link coloring OFF on input line 17.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref
+.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/refcount\refcount.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcoun
+t.sty"
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
+("C:\Users\Acer-PC\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring
+\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count307
@@ -531,8 +596,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
-
-(info.out) (info.out)
+ (info.out) (info.out)
 \@outlinefile=\write5
 \openout5 = `info.out'.
 
@@ -549,8 +613,8 @@ Package pdftex.def Info: imgs/ud.jpeg  used on input line 58.
 [1
 
 
-{C:/Users/bluep/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imgs/ud.j
-peg>] [2
+{C:/Users/Acer-PC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imgs/ud
+.jpeg>] [2
 
 ] (info.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -2827,24 +2891,21 @@ LaTeX Info: Redefining \% on input line 38.
 <imgs/modelo/Proyecto.pdf, id=2681, 356.33125pt x 116.435pt>
 File: imgs/modelo/Proyecto.pdf Graphic file (type pdf)
 <use imgs/modelo/Proyecto.pdf>
-Package pdftex.def Info: imgs/modelo/Proyecto.pdf  used on input line 5.
+Package pdftex.def Info: imgs/modelo/Proyecto.pdf  used on input line 24.
 (pdftex.def)             Requested size: 323.9978pt x 105.87428pt.
-<imgs/caso/proyecto/proyecto.pdf, id=2682, 513.92pt x 398.48875pt>
-File: imgs/caso/proyecto/proyecto.pdf Graphic file (type pdf)
-<use imgs/caso/proyecto/proyecto.pdf>
-Package pdftex.def Info: imgs/caso/proyecto/proyecto.pdf  used on input line 29
-.
-(pdftex.def)             Requested size: 323.9978pt x 251.22557pt.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-)
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
- [152
+[152
 
  <./imgs/modelo/Proyecto.pdf>]
+<imgs/caso/proyecto/proyecto.pdf, id=2694, 513.92pt x 398.48875pt>
+File: imgs/caso/proyecto/proyecto.pdf Graphic file (type pdf)
+<use imgs/caso/proyecto/proyecto.pdf>
+Package pdftex.def Info: imgs/caso/proyecto/proyecto.pdf  used on input line 33
+.
+(pdftex.def)             Requested size: 323.9978pt x 251.22557pt.
+)
 LaTeX Info: Redefining \. on input line 39.
 LaTeX Info: Redefining \% on input line 39.
  [153 <./imgs/caso/proyecto/proyecto.pdf>]
@@ -2855,34 +2916,39 @@ LaTeX Info: Redefining \% on input line 39.
 <imgs/modelo/Migracion.pdf, id=2707, 202.7575pt x 70.2625pt>
 File: imgs/modelo/Migracion.pdf Graphic file (type pdf)
 <use imgs/modelo/Migracion.pdf>
-Package pdftex.def Info: imgs/modelo/Migracion.pdf  used on input line 5.
+Package pdftex.def Info: imgs/modelo/Migracion.pdf  used on input line 8.
 (pdftex.def)             Requested size: 323.9978pt x 112.27968pt.
-<imgs/caso/proyecto/migracion.pdf, id=2708, 464.73625pt x 179.67125pt>
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+ [154
+
+
+ <./imgs/modelo/Migracion.pdf>]
+<imgs/caso/proyecto/migracion.pdf, id=2727, 464.73625pt x 179.67125pt>
 File: imgs/caso/proyecto/migracion.pdf Graphic file (type pdf)
 <use imgs/caso/proyecto/migracion.pdf>
 Package pdftex.def Info: imgs/caso/proyecto/migracion.pdf  used on input line 1
-3.
+9.
 (pdftex.def)             Requested size: 323.9978pt x 125.26456pt.
 )
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
- [154
 
+[155
 
- <./imgs/modelo/Migracion.pdf> <./imgs/caso/proyecto/migracion.pdf>]
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
- [155]
+ <./imgs/caso/proyecto/migracion.pdf>]
 \openout2 = `arquitectura/proyecto/implementacion.aux'.
 
- (arquitectura/proyecto/implementacion.tex
+
+(arquitectura/proyecto/implementacion.tex
 File: imgs/modelo/Implementacion.pdf Graphic file (type pdf)
 <use imgs/modelo/Implementacion.pdf>
-Package pdftex.def Info: imgs/modelo/Implementacion.pdf  used on input line 5.
-(pdftex.def)             Requested size: 323.9978pt x 248.10739pt.
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
-[156
+Package pdftex.def Info: imgs/modelo/Implementacion.pdf  used on input line 17.
+
+(pdftex.def)             Requested size: 251.9989pt x 192.96512pt.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [156
 
 
 ]
@@ -2891,19 +2957,18 @@ t>
 File: imgs/caso/proyecto/implementacion_migracion.pdf Graphic file (type pdf)
 <use imgs/caso/proyecto/implementacion_migracion.pdf>
 Package pdftex.def Info: imgs/caso/proyecto/implementacion_migracion.pdf  used 
-on input line 22.
+on input line 26.
 (pdftex.def)             Requested size: 323.9978pt x 300.69643pt.
 )
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
- [157 <./imgs/caso/proyecto/implementacion_migracion.pdf>])
-LaTeX Info: Redefining \. on input line 79.
-LaTeX Info: Redefining \% on input line 79.
- [158
+ [157 <./imgs/caso/proyecto/implementacion_migracion.pdf>]
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+ [158]) [159
 
 
-]
-[159] [160] (patrones/creacionales.tex
+] [160] (patrones/creacionales.tex
 Cap\'{\i }tulo 10.
 [161
 
@@ -3002,7 +3067,7 @@ LaTeX Info: Redefining \% on input line 24.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `info.out' has not changed.
-(rerunfilecheck)             Checksum: F4B2C53F169FFED0CB5D92F0C8F2470F;11444.
+(rerunfilecheck)             Checksum: 4A8C8322983CA29C2A9C8C88D68AE184;11449.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3010,25 +3075,28 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  13082 strings out of 480930
- 257092 string characters out of 2909548
+ 256591 string characters out of 2898823
  731759 words of memory out of 3000000
  27767 multiletter control sequences out of 15000+200000
  541210 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,17n,39p,1972b,724s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\bluep\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcti1095.pk> <C:\Users\bluep\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\tcrm1095.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmtt9.pfb>
-Output written on info.pdf (169 pages, 6388088 bytes).
+ <C:\Users\Acer-PC\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcti1095.pk> <C:\Users\Acer-PC\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1095.pk><C:/Users/Acer-PC/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Acer-PC/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Acer-PC/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Use
+rs/Acer-PC/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Users/Acer-PC/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Users/Acer-PC/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Acer-PC/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Acer-PC/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Acer-PC/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
+/Users/Acer-PC/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmtt9.pfb>
+Output written on info.pdf (169 pages, 6389530 bytes).
 PDF statistics:
  3057 PDF objects out of 3580 (max. 8388607)
  503 named destinations out of 1000 (max. 500000)

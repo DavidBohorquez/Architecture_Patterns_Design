@@ -181,12 +181,12 @@
 \contentsline {section}{\numberline {9.2}Metamodelo}{150}{section.9.2}%
 \contentsline {section}{\numberline {9.3}Punto de Vista de Proyecto}{152}{section.9.3}%
 \contentsline {subsection}{\numberline {9.3.1}Modelo de Proyecto}{152}{subsection.9.3.1}%
-\contentsline {subsection}{\numberline {9.3.2}Caso de Proyecto}{152}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.2}Caso de Proyecto}{153}{subsection.9.3.2}%
 \contentsline {section}{\numberline {9.4}Punto de Vista de Migración}{154}{section.9.4}%
 \contentsline {subsection}{\numberline {9.4.1}Modelo de Migración}{154}{subsection.9.4.1}%
-\contentsline {subsection}{\numberline {9.4.2}Caso de Migración}{154}{subsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.4.2}Caso de Migración}{155}{subsection.9.4.2}%
 \contentsline {section}{\numberline {9.5}Punto de Vista de Implementación Migración}{156}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Modelo de Migración}{156}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.1}Modelo de Implementación}{156}{subsection.9.5.1}%
 \contentsline {subsection}{\numberline {9.5.2}Caso de Implementación}{157}{subsection.9.5.2}%
 \contentsline {part}{III\hspace {1em}DISEÑO}{159}{part.3}%
 \contentsline {chapter}{\numberline {10}Creacionales}{161}{chapter.10}%
