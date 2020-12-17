@@ -173,9 +173,9 @@
 \contentsline {subsection}{\numberline {8.7.2}Caso de Realización de Servicio}{142}{subsection.8.7.2}%
 \contentsline {section}{\numberline {8.8}Punto de Vista Físico}{144}{section.8.8}%
 \contentsline {subsection}{\numberline {8.8.1}Modelo Físico}{144}{subsection.8.8.1}%
-\contentsline {section}{\numberline {8.9}Punto de Vista de Capas}{145}{section.8.9}%
-\contentsline {subsection}{\numberline {8.9.1}Modelo de Capas}{145}{subsection.8.9.1}%
-\contentsline {subsection}{\numberline {8.9.2}Caso punto de vista de Capas}{146}{subsection.8.9.2}%
+\contentsline {section}{\numberline {8.9}Punto de Vista de Capas}{146}{section.8.9}%
+\contentsline {subsection}{\numberline {8.9.1}Modelo de Capas}{146}{subsection.8.9.1}%
+\contentsline {subsection}{\numberline {8.9.2}Caso punto de vista de Capas}{147}{subsection.8.9.2}%
 \contentsline {chapter}{\numberline {9}Proyecto}{149}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Introducción}{149}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Metamodelo}{150}{section.9.2}%
