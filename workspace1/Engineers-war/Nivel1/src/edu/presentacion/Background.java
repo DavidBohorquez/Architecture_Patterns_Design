@@ -5,8 +5,8 @@
  */
 package edu.presentacion;
 
-import java.awt.Graphics;
 import java.awt.image.BufferedImage;
+
 import javax.imageio.ImageIO;
 
 public class Background {
