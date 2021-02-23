@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="edu.cableado.IMovibleDer"/>
+    <fullyQualifiedTypeName name="edu.cableado.IEscenario"/>
+    <fullyQualifiedTypeName name="edu.presentacion.BoardView"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.nimbus.NimbusLookAndFeel"/>
+    <fullyQualifiedTypeName name="edu.presentacion.Nivel1"/>
+    <fullyQualifiedTypeName name="edu.core.Personaje"/>
+    <fullyQualifiedTypeName name="edu.cableado.IUbicable"/>
+    <fullyQualifiedTypeName name="edu.cableado.IPintable"/>
+</qualifiedTypeNameHistroy>
