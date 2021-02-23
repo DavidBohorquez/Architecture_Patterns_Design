@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================Correr -Engineer War-=================================== -->
+<project name="1.3 derecha" default="Crear derecha.jar">
+    <description> Genera el jar de Derecha </description>
+	<!-- variables -->
+	<property name="base_derecha" location="C:\eclipse\workspace\Engineers-war\Derecha"/>
+	<property name="destino_derecha" location="C:\eclipse\workspace\Engineers-war\Orquestador\back\derecha.jar"/>
+	<!--   guiar   -->
+    <target name="Crear derecha.jar" description="crea el derecha.jar">
+    	<jar destfile="${destino_derecha}"  basedir="${base_derecha}\bin" manifest="${base_derecha}\MANIFEST.MF"/>
+    </target>
+</project>
+

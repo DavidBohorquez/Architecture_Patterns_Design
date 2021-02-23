@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================Personaje -Sandro-=================================== -->
+<project name="1.3 Personaje" default="Crear personaje.jar">
+    <description> Genera el jar de Personaje </description>
+	<!-- variables -->
+	<property name="base_personaje" location="C:\eclipse\workspace\Engineers-war\Personaje"/>
+	<property name="destino_personaje" location="C:\eclipse\workspace\Engineers-war\Orquestador\back\personaje.jar"/>
+	<!--   guiar   -->
+    <target name="Crear personaje.jar" description="crea el personaje.jar">
+    	<jar destfile="${destino_personaje}"  basedir="${base_personaje}\bin" manifest="${base_personaje}\MANIFEST.MF"/>
+    </target>
+</project>
+

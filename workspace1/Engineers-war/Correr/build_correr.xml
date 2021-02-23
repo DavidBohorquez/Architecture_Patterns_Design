@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================Correr -Engineer War-=================================== -->
+<project name="1.3 correr" default="Crear correr.jar">
+    <description> Genera el jar de Correr </description>
+	<!-- variables -->
+	<property name="base_correr" location="C:\eclipse\workspace\Engineers-war\Correr"/>
+	<property name="destino_correr" location="C:\eclipse\workspace\Engineers-war\Orquestador\front\correr.jar"/>
+	<!--   guiar   -->
+    <target name="Crear correr.jar" description="crea el correr.jar">
+    	<jar destfile="${destino_correr}"  basedir="${base_correr}\bin" manifest="${base_correr}\MANIFEST.MF"/>
+    </target>
+</project>
+
